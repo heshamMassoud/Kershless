@@ -1,6 +1,8 @@
 # Kershless
 HTTP-based RESTful API that provides an interface for Kershless functionality and data access/usage.
 
+[![Build Status](https://travis-ci.org/heshamMassoud/Kershless.svg)](https://travis-ci.org/heshamMassoud/Kershless)
+
 ##Running locally
 ### MongoDB
 * Open MongoDB connection:
