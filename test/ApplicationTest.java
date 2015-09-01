@@ -10,6 +10,7 @@ import static play.test.Helpers.testServer;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import play.libs.ws.WS;
@@ -75,6 +76,7 @@ public class ApplicationTest {
         });*/
     }
 
+    @Ignore
     @Test
     public void UsersRoute() {
         running(fakeApplication(), new Runnable() {
@@ -86,6 +88,7 @@ public class ApplicationTest {
         });
     }
 
+    @Ignore
     @Test
     public void realUsersRequest() {
         running(testServer(3333), new Runnable() {
