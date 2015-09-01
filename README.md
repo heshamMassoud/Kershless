@@ -11,6 +11,7 @@ sudo mongod --dbpath `../db path`
 ```
 mongo db
 help
+db.shutdownServer()
 ```
 
 ### Start App
