@@ -1,5 +1,5 @@
 # Kershless
-RESTful HTTP API that provides an interface for Kershless functionality and data access/usage.
+HTTP-based RESTful API that provides an interface for Kershless functionality and data access/usage.
 
 ##Running locally
 ### MongoDB
