@@ -3,7 +3,7 @@ HTTP API that provides an interface for Kershless functionality and data access/
 
 ##Running locally
 ### MongoDB
-* Open MongoDB connection
+* Open MongoDB connection:
 ```
 sudo mongod --dbpath `../db path`
 ```
