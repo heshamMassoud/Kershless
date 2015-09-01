@@ -2,13 +2,12 @@
 HTTP API that provides an interface for Kershless functionality and data access/usage.
 
 ##Running locally
-=================
 ### MongoDB
-1. Open MongoDB connection
+* Open MongoDB connection
 ```
 sudo mongod --dbpath `../db path`
 ```
-2. (Optional) On another terminal window:
+* (Optional) On another terminal window:
 ```
 mongo db
 help
@@ -16,7 +15,9 @@ help
 
 ### Start App
 `sbt clean compile`
+
 `run`
+
 Go to `localhost:9000` on any web browser.
 
 ##License
