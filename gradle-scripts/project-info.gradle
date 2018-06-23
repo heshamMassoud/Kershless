@@ -1,0 +1,4 @@
+group = 'com.kershless'
+version = System.getProperty('build.version') ?: versionWIP
+description = "HTTP-based RESTful API that provides an interface for Kershless functionality and data access/usage."
+logger.lifecycle("\nActual Build Version: [{}]\n", version)
