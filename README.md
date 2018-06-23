@@ -1,5 +1,5 @@
 # Kershless
-[![CircleCI](https://circleci.com/gh/heshamMassoud/Kershless/tree/v2.svg?style=svg)](https://circleci.com/gh/heshamMassoud/Kershless/tree/v2)
+[![CircleCI](https://circleci.com/gh/heshamMassoud/Kershless/tree/master.svg?style=svg)](https://circleci.com/gh/heshamMassoud/Kershless/tree/master)
 
 HTTP-based RESTful API that provides an interface for Kershless functionality and data access/usage.
 
