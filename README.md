@@ -1,6 +1,9 @@
 # Kershless
 [![CircleCI](https://circleci.com/gh/heshamMassoud/Kershless/tree/master.svg?style=svg)](https://circleci.com/gh/heshamMassoud/Kershless/tree/master)
-[![sonarcloud](https://sonarcloud.io/api/project_badges/measure?project=com.kershless%3Akershless&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.kershless%3Akershless)
+[![SonarQualityGate](https://sonarcloud.io/api/project_badges/measure?project=com.kershless%3Akershless&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.kershless%3Akershless)
+[![SonarCodeCov](https://sonarcloud.io/api/project_badges/measure?project=com.kershless%3Akershless&metric=coverage)](https://sonarcloud.io/dashboard?id=com.kershless%3Akershless)
+[![SonarVulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.kershless%3Akershless&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=com.kershless%3Akershless)
+
 
 
 HTTP-based RESTful API that provides an interface for Kershless functionality and data access/usage.
