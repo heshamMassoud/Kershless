@@ -1,36 +1,31 @@
 # Kershless
+[![CircleCI](https://circleci.com/gh/heshamMassoud/Kershless/tree/v2.svg?style=svg)](https://circleci.com/gh/heshamMassoud/Kershless/tree/v2)
+
 HTTP-based RESTful API that provides an interface for Kershless functionality and data access/usage.
 
-[![Build Status](https://travis-ci.org/heshamMassoud/Kershless.svg)](https://travis-ci.org/heshamMassoud/Kershless)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-##Running locally
-### MongoDB
-* Open MongoDB connection:
-```
-sudo mongod --dbpath `../db path`
-```
-* (Optional) On another terminal window:
-```
-mongo db
-help
-db.shutdownServer()
-```
 
-### Start App
-`sbt clean compile`
+- [Development](#development)
+    - [Full build](#full-build)
+    - [Run](#run)
+- [Licence](#licence)
 
-`run`
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Go to `localhost:9000` on any web browser.
+## Development
+This section provides documentation for building and running the project on a local machine.
+#### Full build
+````bash
+./gradlew clean build
+````
+#### Run
+````bash
+./gradlew bootRun
+````
+Then go to `localhost:8080` on any web browser.
 
-##License
--------
-MIT License
+## Licence
+Copyright (c) 2018 Kershless
 
-Copyright (c) 2015 Hesham Massoud
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
