@@ -1,4 +1,5 @@
 # Kershless
+![kershless](http://www.kershless.com/Assets/Images/kershless_logo.svg)
 [![CircleCI](https://circleci.com/gh/heshamMassoud/Kershless/tree/master.svg?style=svg)](https://circleci.com/gh/heshamMassoud/Kershless/tree/master)
 [![SonarQualityGate](https://sonarcloud.io/api/project_badges/measure?project=com.kershless%3Akershless&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.kershless%3Akershless)
 [![SonarCodeCov](https://sonarcloud.io/api/project_badges/measure?project=com.kershless%3Akershless&metric=coverage)](https://sonarcloud.io/dashboard?id=com.kershless%3Akershless)
