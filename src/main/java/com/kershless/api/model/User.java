@@ -9,7 +9,8 @@ public class User {
     private final String placeOfBirth;
     private final String email;
 
-    User(String firstName, String lastName, Date dateOfBirth, String placeOfBirth, String email) {
+    User(final String firstName, final String lastName, final Date dateOfBirth, final String placeOfBirth,
+         final String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;

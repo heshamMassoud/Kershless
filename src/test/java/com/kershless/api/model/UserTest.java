@@ -12,7 +12,7 @@ public class UserTest {
     private static User user;
 
     @BeforeClass
-    public static void setUpClass(){
+    public static void setUpClass() {
         user = UserBuilder.of("foo", "bar", "foobar@gmail.com")
                           .dateOfBirth(Date.from(Instant.ofEpochSecond(1)))
                           .placeOfBirth("Cairo")
