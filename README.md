@@ -27,5 +27,5 @@ This section provides documentation for building and running the project on a lo
 Then go to `localhost:8080` on any web browser.
 
 ## Licence
-Copyright (c) 2018 Hesham Massoud
+Copyright (c) 2018 Kershless
 
