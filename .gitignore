@@ -1,11 +1,10 @@
+## other
 *.log
-project/project
-project/target
-target
-.settings
-.classpath
-.project
-.gradle
-.idea/*
+
+## Intellij
+.idea
+
+## Gradle
 build
-*.iml
+out
+.gradle
